@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: system-ui;
+    background: #ffff;
+    color: gray;
+    margin-top: 20px;
+  }
+  
+  #header {
+      text-align: center;
+      margin: 0 auto;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-bottom: 15px;
+      line-height: 1;
+    
+    }
+    h2 {
+        line-height: 1;
+    }
+    h3 {
+        font-family: normal, sans-serif;
+    }
+  
+  main {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    
+  }
+  
+  .block {
+    color: #666666;
+    min-width: 200px;
+    min-height: 200px;
+    flex: 1 1 200px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+
+    -webkit-box-shadow: 1px 22px 45px -18px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 22px 45px -18px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 22px 45px -18px rgba(34, 60, 80, 0.2);
+  }
+  .experience {
+    background: rgb(226, 191, 191); 
+  }
+  .skills {
+    background: rgb(207, 224, 183); 
+  }
+  .education {
+    background: rgb(182, 208, 223); 
+  }
+  .hobby {
+    background: rgb(245, 206, 161); 
+  }
+
+    
+
+
+/* hover */
+  .experience:hover {
+    background: rgb(194, 158, 158); 
+  }
+  .skills:hover {
+    background: rgb(184, 197, 164); 
+  }
+  .education:hover {
+    background: rgb(168, 190, 202); 
+  }
+  .hobby:hover {
+    background: rgb(230, 190, 144); 
+  }
+  /* end hover */
+
+ 
+    
+  
