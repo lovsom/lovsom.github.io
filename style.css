@@ -40,16 +40,21 @@ body {
     font-size: 20px;
     cursor: pointer;
     margin: 10px;
+    
 
     -webkit-box-shadow: 1px 22px 45px -18px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 1px 22px 45px -18px rgba(34, 60, 80, 0.2);
     box-shadow: 1px 22px 45px -18px rgba(34, 60, 80, 0.2);
   }
+
   .experience {
     background: rgb(226, 191, 191); 
+    background-image:url(image/exp3.png);
   }
   .skills {
     background: rgb(207, 224, 183); 
+    background-image:url(image/ski1.png);
+   
   }
   .education {
     background: rgb(182, 208, 223); 
@@ -57,16 +62,18 @@ body {
   .hobby {
     background: rgb(245, 206, 161); 
   }
-
     
 
 
 /* hover */
   .experience:hover {
-    background: rgb(194, 158, 158); 
+    background: rgb(194, 158, 158);
+    background-image:url(image/exp3_hov2.png);
+    /* color: white;  */
   }
   .skills:hover {
-    background: rgb(184, 197, 164); 
+    background: rgb(101, 110, 87);
+    background-image:url(image/ski_hov.png); 
   }
   .education:hover {
     background: rgb(168, 190, 202); 
